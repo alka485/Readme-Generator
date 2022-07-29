@@ -1,5 +1,12 @@
 // TODO: Include packages needed for this application
  const inquirer = require('inquirer');
+
+ //fs is a Node standard library package for reading and writing files
+   const fs = require('fs');
+
+//Generate HTML files
+   const generateMd = require("./utils/generateMarkdown");
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
