@@ -1,6 +1,9 @@
 //console.log("Hello");
 // TODO: Include packages needed for this application
  const inquirer = require('inquirer');
+ inquirer.registerPrompt('search-list', require('inquirer-search-list'));
+ 
+
 
  //fs is a Node standard library package for reading and writing files
    const fs = require('fs');
@@ -44,7 +47,7 @@ const questions = [
 
     // 5th question
     {
-        type : 'input',
+        type : 'search-list',
         name : 'license',
         message : 'What kind of license should your project have?',
         choices : ['MIT','Apache','GPL'],
