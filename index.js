@@ -50,15 +50,26 @@ const questions = [
         type : 'search-list',
         name : 'license',
         message : 'What kind of license should your project have?',
-        choices : ['MIT','Apache','GPL'],
+        choices : ['MIT','Apache','GPL']
         },
 
     //6th question   
     {
         type : 'input',
-        name : 'descr',
+        name : 'test',
         message : 'What command should be run to run tests?'
-        }
+        },
+
+    // 7th question
+
+    {
+        type : 'input',
+        name : 'email',
+        message : 'What is your email address?'
+        },
+
+
+
 
  
 ];
