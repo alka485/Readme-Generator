@@ -52,7 +52,7 @@ const questions = [
         type : 'search-list',
         name : 'license',
         message : 'What kind of license should your project have?',
-        choices : ['MIT','Apache','GPL']
+        choices : ['MIT','Apache','GPL','Academic','GNU','Mozilla','Open','ISC']
         },
 
     //6th question   
