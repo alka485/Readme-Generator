@@ -11,6 +11,7 @@
 //Generate HTML files
    const generatePage = require("./utils/generateMarkdown");
 const Choices = require('inquirer/lib/objects/choices');
+const generateMarkdown = require('./utils/generateMarkdown');
    
 
 // TODO: Create an array of questions for user input
@@ -103,7 +104,11 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions)
+    .then (function(userInput){
+        console.log(userInput);
+        writeToFile("./output/README.md" , generateMarkdown(userInput));
+    })
 
 }
 
