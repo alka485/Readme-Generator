@@ -82,7 +82,7 @@ const questions = [
     {
         ype: 'input',
         message: "If applicable, provide guidelines on how other developers can contribute to your project.",
-        name: 'contributing'
+        name: 'contribute'
     }
 
 
