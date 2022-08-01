@@ -9,9 +9,12 @@
    const fs = require('fs');
 
 //Generate HTML files
-   const generatePage = require("./utils/generateMarkdown");
-const Choices = require('inquirer/lib/objects/choices');
+const generatePage = require("./utils/generateMarkdown");
+const choices = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown');
+
+console.log ("Welcome to my Readme generator");
+console.log ("Please answer below question to generate a high quality of README for your project");
    
 
 // TODO: Create an array of questions for user input
