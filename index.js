@@ -21,17 +21,15 @@ const questions = [
         //1st question
     type : 'input',
     name : 'github_name',
-    message : 'What is your Github username? '
+    message : 'What is your Github username?'
 
     },
     
-
     //2nd question
-
     {
     type : 'input',
     name : 'email_address',
-    message : 'What is your email address?'
+    message :'What is your email address?'
     },
     
     // 3rd question
@@ -63,22 +61,15 @@ const questions = [
         message : 'Please ,enter any testing protocols you used for your project?'
         },
 
-    // 7th question
-
-    {
-        type : 'input',
-        name : 'email',
-        message : 'What is your email address?'
-        },
  
-    //8th question
+    //7th question
     {
         type: "input",
         message: "What are the installation instructions for your project?",
         name: "installation",
     },
     
-    //9th question
+    //8th question
     {
         ype: 'input',
         message: "If applicable, provide guidelines on how other developers can contribute to your project.",

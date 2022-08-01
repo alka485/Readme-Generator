@@ -39,7 +39,7 @@ function generateMarkdown(data) {
            ## Testing
            ${data.test}
            ## Contact Information
-           - GitHub [${data.github}] (https://github.com/${data.github})
+           - GitHub [${data.github_name}] (https://github.com/${data.github_name})
            - Email [${data.email_address}] (mailto: user@example.com)`
 ;
 }
