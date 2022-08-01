@@ -18,29 +18,28 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return ` # ${data.title} 
-           ## License :
-           [![License]" (https://img.shields.io/badge/${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})"
-           ## Table of Contents
-           - [Description] (#description)
-           - [Installation] (#installation)
-           - [Usage] (#usage)
-           - [Contribution] (#contribution)
-           - [Testing] (#test)
-           - [Additional Info] (#additionalinfo)
-
-           ## Description
-           ${data.descr}
-           ## Installation
-           ${data.installation}
-           ## License
-           ${data.license}
-           ## Contribution
-           ${data.contribute}
-           ## Testing
-           ${data.test}
-           ## Contact Information
-           - GitHub [${data.github_name}] (https://github.com/${data.github_name})
-           - Email [${data.email_address}] (mailto: user@example.com)`
+  ## License :
+  [![License]" (https://img.shields.io/badge/${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})"
+  ## Table of Contents
+   - [Description] (#description)
+   - [Installation] (#installation)
+   - [Usage] (#usage)
+   - [Contribution] (#contribution)
+   - [Testing] (#test)
+   - [Additional Info] (#additionalinfo)
+  ## Description
+    ${data.descr}
+   ## Installation
+    ${data.installation}
+  ## License
+    ${data.license}
+  ## Contribution
+    ${data.contribute}
+  ## Testing
+   ${data.test}
+  ## Contact Information
+  - GitHub [${data.github_name}] (https://github.com/${data.github_name})
+  - Email [${data.email_address}] (mailto: user@example.com)`
 ;
 }
 

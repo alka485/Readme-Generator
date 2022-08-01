@@ -78,23 +78,16 @@ const questions = [
         message: "If applicable, provide guidelines on how other developers can contribute to your project.",
         name: 'contribute'
     }
-
-
-
-
- 
 ];
 
-//console.log(questions);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName ,data,(err) => {
-     err ? console.error(err) : console.log('submitted');
+     err ? console.error(err) : console.log('Success! Now you can view your README file');
     });
 }
 
-//const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
 function init() {
