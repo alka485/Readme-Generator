@@ -37,8 +37,8 @@ const questions = [
     // 3rd question
     {
         type : 'input',
-        name : 'project_name',
-        message : 'What is your project name?'
+        name : 'title',
+        message : 'What is your project title?'
         },
 
     //4th question   
