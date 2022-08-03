@@ -19,7 +19,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return ` # ${data.title} 
   ## License :
-  [![License]" (https://img.shields.io/badge/${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})"
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+  This application is covered under ${data.license} license
+
   ## Table of Contents
    - [Description] (#description)
    - [Installation] (#installation)
