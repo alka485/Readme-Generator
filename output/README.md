@@ -1,7 +1,7 @@
- # dfjkd 
+ # Node 9  
   ## License :
-  ![badge](https://img.shields.io/badge/license-GPL-brightgreen)<br />
-  This application is covered under GPL license
+  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+  This application is covered under Apache license
 
   ## Table of Contents
    - [Description] (#description)
@@ -11,15 +11,15 @@
    - [Testing] (#test)
    - [Additional Info] (#additionalinfo)
   ## Description
-    djfkd
+    weekly assignment
    ## Installation
-    jskd
+    npm install
   ## License
-    GPL
+    Apache
   ## Contribution
-    djf
+    through github
   ## Testing
-   dfd
+   npm install
   ## Contact Information
-  - GitHub [dsfjd] (https://github.com/dsfjd)
-  - Email [djfjd] (mailto: user@example.com)
+  - GitHub [alka485] (https://github.com/alka485)
+  - Email [alkasah485@gmail.com] (mailto: user@example.com)
